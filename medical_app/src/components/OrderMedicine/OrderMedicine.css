@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+
+}
+
+/* .grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+} */
+
+.grid-item{
+    width: 10px;
+    height: 20px;
+    border: 1px solid blue;
+}
